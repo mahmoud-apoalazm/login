@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="task.css">
+    <title>task 2</title>
+</head>
+
+<body>
+
+    <div class="bag">
+        <label>HOPE</label>
+
+        <div class="form">
+            <div class="form1">
+                <div class="form2">
+                    <h1>facebook</h1>
+                    <h4>
+                        login
+                    </h4>
+
+                    <div class="form_content">
+                        <div class="form_box">
+
+                            <input type="email" name="email" id="" placeholder="Email or phone">
+
+                        </div>
+                        <div class="form_box">
+
+                            <input type="password" name="password" id="" placeholder="password">
+
+                        </div>
+                        <div class="form_box">
+
+                            <input class="input" type="submit" name="submit" id="" value="login">
+
+                        </div>
+                    </div>
+                    <p id="forget_box"><a id="forget" href="#forget_box"> forget password</a> <span>or</span><a id="forget" href="#forget_box"> sign up</a></p>
+                </div>
+            </div>
+        </div>
+        <nav id="slidnav">
+
+            <ul>
+                <li><a class="active" href="">Home</a></li>
+                <li><a class="active" href="">About</a></li>
+                <li><a class="active" href="">Services</a></li>
+                <li><a class="active" href="">Contact</a></li>
+
+            </ul>
+        </nav>
+        <a href="#menubtn"><img src="menu.png" alt="" id="menubtn"></a>
+        <script>
+            var menubtn = document.getElementById("menubtn");
+            var slidnav = document.getElementById("slidnav");
+            slidnav.style.right = "-250px"
+            menubtn.onclick = function() {
+                if (slidnav.style.right == "-250px") {
+                    slidnav.style.right = "0"
+                    slidnav.style.transition = ".5s"
+
+                } else {
+                    slidnav.style.right = "-250px"
+                    slidnav.style.transition = ".5s"
+                }
+            }
+        </script>
+    </div>
+</body>
+
+</html>

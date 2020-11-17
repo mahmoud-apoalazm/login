@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: montserrat;
+}
+
+#slidnav {
+    background: #1111db;
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    z-index: 2;
+    opacity: 0.6;
+}
+
+nav ul li {
+    list-style: none;
+    text-decoration: none;
+    line-height: 80px;
+    padding: 20px 25px;
+    margin: 34px 30px;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    padding: 10px 15px;
+    font-weight: lighter;
+    border-radius: 5px;
+}
+
+.active:hover {
+    background: rgb(30, 157, 189);
+    transition: .5s;
+    font-weight: bolder;
+}
+
+#menubtn {
+    width: 50px;
+    position: fixed;
+    right: 44px;
+    top: 25px;
+    z-index: 2;
+}
+
+label {
+    font-size: 32px;
+    color: white;
+    font-weight: bolder;
+    padding: 80px 100px;
+    line-height: 80px;
+}
+
+.bag {
+    background: url(img-3.jpg);
+    background-size: cover;
+    opacity: 0.75;
+}
+
+.form {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.form1 {
+    background: white;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form2 {
+    background: white;
+    border-radius: 10px;
+    box-shadow: -5px -5px 8px rgba(177, 175, 175, 0.1), 5px 5px 15px 5px rgba(76, 75, 75, 0.8);
+    padding: 50px 20px 60px;
+    position: relative;
+    text-align: center;
+    width: 370px;
+    height: 450px;
+    margin-left: 58px;
+}
+
+h1 {
+    color: #002ca7;
+    font-size: 32px;
+    font-weight: bold;
+    text-shadow: 2px 2px 6px #5b5bba;
+    margin-bottom: 15px;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    opacity: 0.8;
+}
+
+.form_content {
+    margin: 45px 22px;
+    text-align: left;
+}
+
+.form_content .form_box {
+    margin-top: 25px;
+}
+
+input {
+    background: #ffffff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: inset -3px -3px 8px rgb(255 255 255 / 20%), inset 3px 3px 8px rgb(165 165 165 / 80%);
+    color: #6f6f6f;
+    font-size: 15px;
+    height: 40px;
+    outline: none;
+    padding: 5px 15px;
+    width: 100%;
+}
+
+input:focus {
+    color: blue;
+    text-shadow: 0 0 8px blue;
+}
+
+.input {
+    background: #081bc2;
+    border: none;
+    border-radius: 15px;
+    color: #f5f5f5;
+    font-size: 15px;
+    height: 40px;
+    padding: 5px 15px;
+    width: 100%;
+}
+
+#forget {
+    font-weight: bold;
+    text-decoration: none;
+    color: #0000ff;
+    text-shadow: 3px 2px 15px #0000ff;
+}
+
+#forge:hover {
+    padding: 20px;
+    color: #0000ff;
+    text-shadow: 3px 2px 15px 10px #0000ff, -3px -2px 20px 10px #0000ff;
+}
